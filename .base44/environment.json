@@ -1,0 +1,12 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "docker compose -f docker-compose.base44.yml up -d",
+  "secrets": [
+    {
+      "name": "VITE_BASE44_APP_ID",
+      "description": "The Base44 App ID that connects the frontend to your Base44 backend (entities, InvokeLLM integration). Find it in your Base44 dashboard app settings or URL.",
+      "requiredAtBoot": false
+    }
+  ]
+}
